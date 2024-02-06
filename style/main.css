@@ -347,7 +347,7 @@ html[dir=ltr] .maintainance {
     bottom: -45px;
   }
   .brands .mySwiper-parent .swiper-pagination {
-    bottom: -25px;
+    bottom: -35px;
   }
   .fixed-whatsapp {
     width: 50px;
@@ -1136,10 +1136,6 @@ body {
 .brands {
   margin-bottom: 20px;
 }
-.brands .mySwiper-parent {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
 
 .client-item a {
   width: 100%;
@@ -1148,13 +1144,13 @@ body {
   align-items: center;
 }
 .client-item a img {
-  width: auto;
+  width: 100%;
   max-width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
-  .brands .mySwiper-parent {
-    padding: 25px 0;
+  .brands .general-parent {
+    padding: 40px 0 70px 0;
   }
 }
 .bestseller .mySwiper-parent, .brands .mySwiper-parent {

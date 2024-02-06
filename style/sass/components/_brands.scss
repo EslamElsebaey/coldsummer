@@ -1,11 +1,6 @@
 
 .brands{
    margin-bottom: 20px;
-   .mySwiper-parent{
-      padding-top: 64px;
-      padding-bottom: 64px;
-      
-   }
  }
 
  .client-item a{
@@ -14,14 +9,14 @@
     justify-content: center;
     align-items: center;
     img{
-        width: auto;
+        width: 100%;
         max-width: 100%;
     }
  }
 
 
 @include max-768 {
-   .brands .mySwiper-parent{
-      padding: 25px 0;
+   .brands .general-parent{
+      padding: 40px 0 70px 0;
    }
 }
