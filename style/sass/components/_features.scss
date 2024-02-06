@@ -1,0 +1,115 @@
+
+
+.features{
+    margin-bottom: 20px;
+    .general-parent{
+        padding: 50.7px 0 ;
+    }
+    // background-color: #fff;
+}
+.features-children{
+    padding-inline-start:  10px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    // justify-content: space-between;
+}
+.feature-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 330px;
+    padding-inline-start: 25px;
+}
+.feature-title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a1a1a;
+    font-weight: 700;
+    text-align: start;
+    margin: 0px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.feature-img-holder{
+    margin-inline-end: 12px;
+}
+.feature-subtitle{
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: 400;
+    margin: 0;
+}
+
+@include max-1200{
+    .feature-item{
+        width: auto;
+        padding-inline-start: 15px;
+    }
+    .features-children{
+        column-gap: 0;
+    }
+}
+
+
+
+
+@include max-992 {
+    .features-children .feature-item .icon-holder{
+        margin-bottom: 10px;
+    }
+    .features-children{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px  15px;
+    }
+    .feature-item{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .feature-img-holder{
+        margin-inline-end: 0;
+        margin-bottom: 10px;
+    }
+    .feature-title{
+        text-align: center;
+    }
+}
+
+
+
+@include max-768 {
+    .icon-holder .icon{
+        font-size: 25px;
+    }
+    .icon-holder{
+        margin-inline-end: 0;
+        width: 45px;
+        height: 45px;
+    }
+    .feature-subtitle{
+        line-height: 1.6;
+    }
+    html[dir="ltr"]{
+        .feature-title{
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+        .feature-subtitle{
+            line-height: 1.4;
+        }
+    }
+    .features-children{
+        grid-template-columns: 1fr;
+        gap: 0;
+        row-gap: 30px;
+    }
+    .features .general-parent{
+        padding: 50px 0;
+    }
+    .features-children{
+        padding: 0;
+    }
+}

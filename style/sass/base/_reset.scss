@@ -1,0 +1,56 @@
+.nav-arrow-rotate::after {
+    transform:   rotate(180deg)  ;
+}
+.rotate-icon{
+    transform: rotate(-90deg);
+}
+.main-nav-padding{
+    padding: 10px 0 ;
+}
+
+.overflow-hiddden {
+    overflow: hidden;
+}
+
+
+
+.fixed{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background-color: #fff;
+    transition: all linear .5s;
+    .logo img {
+        width:  70px;
+    }
+    .main-nav{
+        padding: 8px 0;
+    }
+    .products-li .products-btn{
+        height: 42px;
+    }
+}
+
+.stayTop {
+    top: -170px;
+    transition: all linear .5s;
+  }
+  
+
+@include max-992 {
+    .fixed{
+        border-bottom: 1px solid #e2e5f1;
+        .logo img {
+            width:  55px;
+        }
+        .main-nav{
+            padding:  5px 0;
+        }
+        .search-item{
+            height: 38px;
+            margin-top: 7px;
+        }
+    }
+}

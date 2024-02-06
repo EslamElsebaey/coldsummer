@@ -1,0 +1,17 @@
+html[dir="ltr"]{
+    .li-has-children > a i{
+        transform: rotate(180deg);
+    }
+    .rotate-icon{
+        transform: rotate(270deg) !important;
+    }
+    .maintainance{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .contact-us .icon{
+        transform: none;
+    }
+}

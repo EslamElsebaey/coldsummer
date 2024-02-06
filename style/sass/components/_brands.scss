@@ -1,0 +1,27 @@
+
+.brands{
+   margin-bottom: 20px;
+   .mySwiper-parent{
+      padding-top: 64px;
+      padding-bottom: 64px;
+      
+   }
+ }
+
+ .client-item a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: auto;
+        max-width: 100%;
+    }
+ }
+
+
+@include max-768 {
+   .brands .mySwiper-parent{
+      padding: 25px 0;
+   }
+}
