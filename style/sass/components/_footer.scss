@@ -232,6 +232,7 @@ footer{
         margin-top: 40px;
         img{
             width: 100%;
+            order: 1;
         }
         p{
             width: 100%;
@@ -243,8 +244,9 @@ footer{
    
     
     .copyright .copyright-text{
-        margin-bottom: 15px;
+        margin-top: 15px;
         text-align: center;
+        order: 2;
     }
     .tasawk-text{
         order: 3;

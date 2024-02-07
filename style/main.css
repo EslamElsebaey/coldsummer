@@ -1867,6 +1867,7 @@ footer {
   }
   .copyright img {
     width: 100%;
+    order: 1;
   }
   .copyright p {
     width: 100%;
@@ -1875,8 +1876,9 @@ footer {
     justify-content: center;
   }
   .copyright .copyright-text {
-    margin-bottom: 15px;
+    margin-top: 15px;
     text-align: center;
+    order: 2;
   }
   .tasawk-text {
     order: 3;
