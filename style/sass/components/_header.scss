@@ -694,6 +694,14 @@ border-bottom: 1px solid #e2e5f1;
 }
 
 
+@media screen and (max-width : 1440px) {
+    .search-item{
+      width: 760px;
+    }
+}
+  
+
+
 @include max-1200{
     .search-item{
         width: 440px;

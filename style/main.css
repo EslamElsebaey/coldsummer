@@ -268,7 +268,7 @@ a:focus, button:focus {
   justify-content: center;
   position: fixed;
   bottom: 15px;
-  right: 10px;
+  right: 15px;
   flex-direction: column;
   z-index: 40;
 }
@@ -328,7 +328,12 @@ html[dir=ltr] .maintainance {
     box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
   }
 }
-@media only screen and (min-width: 1300px) {
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1360px;
+  }
+}
+@media screen and (min-width: 1550px) {
   .container {
     width: 1440px;
   }
@@ -964,6 +969,11 @@ body {
 @media only screen and (min-width: 992px) {
   .lang-currency-closebtn-holder, .bars, .nav-contact-us {
     display: none;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .search-item {
+    width: 760px;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -1899,6 +1909,10 @@ html[dir=ltr] .maintainance {
 }
 html[dir=ltr] .contact-us .icon {
   transform: none;
+}
+html[dir=ltr] .products-li .products-btn {
+  border-left: none;
+  border-right: 1px solid #f0f0f0;
 }
 
 .nav-arrow-rotate::after {

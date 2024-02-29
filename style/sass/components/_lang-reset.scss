@@ -14,4 +14,8 @@ html[dir="ltr"]{
     .contact-us .icon{
         transform: none;
     }
+    .products-li .products-btn{
+        border-left: none;
+        border-right: 1px solid #f0f0f0;
+    }
 }

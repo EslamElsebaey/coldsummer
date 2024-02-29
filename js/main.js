@@ -12,7 +12,7 @@ $(document).ready(function(){
 // main Swiper 
 const mainSwiper = new Swiper('.mainBanner .swiper', {
   loop: true,
-  // autoplay: true,
+  autoplay: true,
   draggable: true,
   navigation: {
     nextEl: ' .mainBanner .swiper-button-next',
@@ -36,7 +36,7 @@ const mainSwiper = new Swiper('.mainBanner .swiper', {
 // brands swiper
 const brandsSwiper = new Swiper('.brands .swiper', {
   loop: true,
-  // autoplay : true ,
+  autoplay : true ,
   pagination: {
     el: '.brands .swiper-pagination',
     clickable: true,
@@ -76,7 +76,7 @@ const brandsSwiper = new Swiper('.brands .swiper', {
 
 const bestsellerSwiper = new Swiper(' .bestseller .swiper', {
   loop: true,
-  // autoplay: true,
+  autoplay: true,
   draggable: true,
  
   pagination: {
@@ -110,7 +110,7 @@ const bestsellerSwiper = new Swiper(' .bestseller .swiper', {
 
 const specialOffers = new Swiper(' .special-offers .swiper', {
   loop: true,
-  // autoplay: true,
+  autoplay: true,
   draggable: true,
  
   pagination: {
